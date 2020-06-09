@@ -19,7 +19,7 @@ metrics=['accuracy']
 # Save architecture  
 I have used h5 format for saving.
 
-#Used the trained model glass.h5  
+# Used the trained model glass.h5  
 from keras.models import load_model  
 model = load_model('glass.h5')  
 model.predict_classes(image)  
